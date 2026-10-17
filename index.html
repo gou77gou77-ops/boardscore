@@ -1,71 +1,311 @@
-개인정보처리방침
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Board Score</title>
+<style>
+  :root {
+    --bg: #F7F4EE; --card: #FFFFFF; --text: #1C1F1D; --muted: #6B6A63;
+    --line: #E4DED3; --accent: #1F6B4F; --accent-soft: #E3EFE9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151614; --card: #1F201D; --text: #ECEAE4; --muted: #A8A59C;
+      --line: #34352F; --accent: #6CC9A1; --accent-soft: #23362D;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+      "Malgun Gothic", "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", sans-serif;
+    line-height: 1.7; font-size: 16px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  .lang-switch { display: flex; gap: 8px; justify-content: flex-end; margin-bottom: 16px; }
+  .lang-switch button {
+    border: 1px solid var(--line); background: var(--card); color: var(--muted);
+    padding: 6px 14px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer;
+  }
+  .lang-switch button[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600;
+  }
+  article { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px 24px; }
+  article[hidden] { display: none; }
+  h1 { font-size: 26px; margin: 0 0 4px; line-height: 1.3; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 2px 0; }
+  a { color: var(--accent); word-break: break-all; }
+  .note { background: var(--accent-soft); border-radius: 10px; padding: 12px 16px; margin: 12px 0; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="lang-switch" aria-label="Language">
+    <button type="button" data-lang="ko">한국어</button>
+    <button type="button" data-lang="en">English</button>
+    <button type="button" data-lang="ja">日本語</button>
+  </nav>
 
-최종 수정일: 2026년 7월 30일
+  <!-- ===================== 한국어 ===================== -->
+  <article id="ko" lang="ko">
+    <h1>개인정보처리방침</h1>
+    <p class="updated">시행일: 2026년 10월 17일</p>
 
-보드게임 점수판(이하 "앱")은 사용자의 개인정보를 중요하게 생각하며, 관련 법령을 준수합니다.
+    <p>보드게임 점수판(이하 "앱")은 사용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을 준수합니다.</p>
 
-1. 수집하는 개인정보
+    <h2>1. 수집하는 개인정보</h2>
+    <p>앱은 회원가입 기능이 없으며, 이름·이메일·전화번호 등 사용자를 직접 식별할 수 있는 개인정보를 개발자가 수집하거나 저장하지 않습니다.</p>
+    <p>앱에서 만드는 데이터(게임 기록, 플레이어 이름, 점수, 설정 등)는 사용자의 기기에만 저장되며, 개발자의 서버로 전송되지 않습니다. 개발자는 별도의 서버를 운영하지 않습니다.</p>
 
-본 앱은 회원가입을 제공하지 않으며, 이름, 이메일, 전화번호 등 사용자를 직접 식별할 수 있는 개인정보를 수집하거나 저장하지 않습니다.
+    <h2>2. 기기에 저장하는 정보</h2>
+    <p>앱은 다음 정보를 사용자 기기 안에만 저장합니다.</p>
+    <ul>
+      <li>게임 기록과 점수 기록</li>
+      <li>플레이어 이름과 팀 이름</li>
+      <li>직접 만든 게임 템플릿과 즐겨찾기</li>
+      <li>앱 설정(언어, 테마 등)</li>
+    </ul>
+    <p>플레이어 이름은 사용자가 자유롭게 입력하는 값입니다. 실명 대신 별명을 사용하셔도 앱 이용에 문제가 없습니다.</p>
 
-앱에서 생성하는 데이터(게임 기록, 플레이어 이름, 점수, 설정 등)는 사용자의 기기에만 저장되며 외부 서버로 전송되지 않습니다.
+    <h2>3. 광고</h2>
+    <p>앱은 Google AdMob을 사용해 광고를 표시합니다. 광고를 제공하고 성과를 측정하는 과정에서 Google과 광고 파트너가 다음 정보를 처리할 수 있습니다.</p>
+    <ul>
+      <li>광고 식별자(Android 광고 ID)</li>
+      <li>기기 정보(기기 모델, 운영체제 버전, 언어 등)</li>
+      <li>IP 주소, 대략적인 위치(국가·지역 수준)</li>
+      <li>광고 노출·클릭 등 광고 상호작용 정보</li>
+    </ul>
+    <p>이 정보는 Google이 자체 개인정보처리방침에 따라 처리하며, 개발자는 이 정보를 받거나 보관하지 않습니다.</p>
+    <div class="note">
+      광고 맞춤설정을 원하지 않으면 기기의 <b>설정 → Google → 광고</b>(기기에 따라 <b>설정 → 개인정보 보호 → 광고</b>)에서 광고 ID를 재설정하거나 삭제할 수 있습니다.
+    </div>
+    <ul>
+      <li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+      <li>Google의 광고 데이터 사용 방식: <a href="https://policies.google.com/technologies/ads?hl=ko" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></li>
+    </ul>
 
-2. 앱에서 저장하는 정보
+    <h2>4. 공유 기능</h2>
+    <p>게임 결과를 텍스트·이미지·CSV로 공유하면, 사용자가 직접 고른 앱(메신저, 이메일 등)으로만 전달됩니다. 공유는 사용자가 버튼을 눌렀을 때만 이루어지며, 개발자는 공유된 내용을 받지 않습니다.</p>
 
-앱은 다음 정보를 기기에 로컬로 저장할 수 있습니다.
+    <h2>5. 앱 권한</h2>
+    <ul>
+      <li><b>인터넷</b>: 광고를 불러오기 위해 사용합니다. 게임 기록과 점수는 전송하지 않습니다.</li>
+      <li><b>광고 ID</b>: 광고 제공을 위해 Google AdMob이 사용합니다.</li>
+      <li><b>화면 켜짐 유지</b>: 점수판 화면을 사용하는 동안 화면이 꺼지지 않도록 합니다. 어떤 정보도 수집하지 않습니다.</li>
+    </ul>
 
-게임 기록
-플레이어 이름
-점수 기록
-게임 템플릿
-최근 플레이 기록
-앱 설정(언어, 테마 등)
+    <h2>6. 제3자 서비스</h2>
+    <ul>
+      <li>Google AdMob (Google LLC) — 광고 제공</li>
+    </ul>
+    <p>서비스가 추가되거나 바뀌면 이 방침을 업데이트합니다.</p>
 
-위 정보는 사용자 기기 내부에만 저장되며 개발자가 수집하지 않습니다.
+    <h2>7. 보관 기간과 삭제</h2>
+    <p>앱 데이터는 사용자가 삭제할 때까지 기기에 저장됩니다. 앱에서 게임 기록을 삭제하거나, 기기의 <b>설정 → 애플리케이션 → 보드게임 점수판 → 저장공간 → 데이터 삭제</b>, 또는 앱 삭제로 모든 데이터를 지울 수 있습니다. 삭제된 데이터는 복구할 수 없습니다.</p>
 
-3. 광고
+    <h2>8. 아동의 개인정보</h2>
+    <p>앱은 아동을 포함한 누구의 개인정보도 개발자가 직접 수집하지 않습니다. 앱은 만 13세 미만 아동을 주 대상으로 하지 않습니다.</p>
 
-본 앱은 Google AdMob을 사용하여 광고를 표시할 수 있습니다.
+    <h2>9. 방침 변경</h2>
+    <p>이 방침이 바뀌면 이 페이지에 최신 내용과 시행일을 게시합니다.</p>
 
-광고 제공 과정에서 Google 및 광고 파트너가 광고 식별자, 기기 정보 또는 광고 성과 측정을 위한 정보를 처리할 수 있습니다.
+    <h2>10. 문의</h2>
+    <p>개인정보 관련 문의는 아래 이메일로 연락해 주세요.</p>
+    <ul>
+      <li>개발자: Susuim</li>
+      <li>이메일: <a href="mailto:gou77gou77@gmail.com">gou77gou77@gmail.com</a></li>
+    </ul>
+  </article>
 
-자세한 내용은 Google의 개인정보처리방침을 참고하시기 바랍니다.
+  <!-- ===================== English ===================== -->
+  <article id="en" lang="en" hidden>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective date: October 17, 2026</p>
 
-Google 개인정보처리방침
-https://policies.google.com/privacy
-Google 광고 정책
-https://policies.google.com/technologies/ads
-4. 인터넷 연결
+    <p>Board Score (the "App") respects your privacy. This policy explains what information the App handles and how.</p>
 
-앱은 광고 표시를 위해 인터넷 연결을 사용할 수 있습니다.
+    <h2>1. Information we collect</h2>
+    <p>The App has no sign-up or accounts. The developer does not collect or store any information that directly identifies you, such as your name, email address, or phone number.</p>
+    <p>Data you create in the App (game history, player names, scores, settings) is stored only on your device and is never sent to the developer. The developer does not operate any servers.</p>
 
-게임 기록이나 점수 데이터는 외부 서버로 전송되지 않습니다.
+    <h2>2. Information stored on your device</h2>
+    <p>The App stores the following only on your device:</p>
+    <ul>
+      <li>Game history and scores</li>
+      <li>Player names and team names</li>
+      <li>Custom game templates and favorites</li>
+      <li>App settings (language, theme, etc.)</li>
+    </ul>
+    <p>Player names are free text that you enter. You can use nicknames instead of real names.</p>
 
-5. 제3자 서비스
+    <h2>3. Advertising</h2>
+    <p>The App shows ads using Google AdMob. To serve ads and measure their performance, Google and its ad partners may process:</p>
+    <ul>
+      <li>Advertising ID (Android Advertising ID)</li>
+      <li>Device information (model, OS version, language, etc.)</li>
+      <li>IP address and approximate location (country/region level)</li>
+      <li>Ad interactions such as impressions and clicks</li>
+    </ul>
+    <p>This information is processed by Google under its own privacy policy. The developer does not receive or keep it.</p>
+    <div class="note">
+      To limit ad personalization, go to <b>Settings → Google → Ads</b> (on some devices, <b>Settings → Privacy → Ads</b>) to reset or delete your advertising ID.
+    </div>
+    <ul>
+      <li>Google Privacy Policy: <a href="https://policies.google.com/privacy?hl=en" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+      <li>How Google uses information from apps that use its services: <a href="https://policies.google.com/technologies/ads?hl=en" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></li>
+    </ul>
 
-본 앱은 다음 서비스를 사용할 수 있습니다.
+    <h2>4. Sharing</h2>
+    <p>When you share a game result as text, an image, or a CSV file, it goes only to the app you choose (a messenger, email, etc.). Sharing happens only when you tap the share button, and the developer does not receive what you share.</p>
 
-Google AdMob
+    <h2>5. Permissions</h2>
+    <ul>
+      <li><b>Internet</b>: used to load ads. Game history and scores are never sent.</li>
+      <li><b>Advertising ID</b>: used by Google AdMob to serve ads.</li>
+      <li><b>Keep screen on</b>: keeps the screen awake while you use the scoreboard. No information is collected.</li>
+    </ul>
 
-필요에 따라 향후 서비스가 추가될 수 있으며, 변경 시 본 개인정보처리방침을 업데이트합니다.
+    <h2>6. Third-party services</h2>
+    <ul>
+      <li>Google AdMob (Google LLC) — advertising</li>
+    </ul>
+    <p>If services are added or changed, this policy will be updated.</p>
 
-6. 데이터 보관
+    <h2>7. Retention and deletion</h2>
+    <p>App data stays on your device until you delete it. You can delete game records in the App, clear all data in <b>Settings → Apps → Board Score → Storage → Clear data</b>, or uninstall the App. Deleted data cannot be recovered.</p>
 
-앱 데이터는 사용자의 기기에 저장됩니다.
+    <h2>8. Children's privacy</h2>
+    <p>The developer does not directly collect personal information from anyone, including children. The App is not primarily directed to children under 13.</p>
 
-앱을 삭제하면 저장된 데이터는 함께 삭제될 수 있습니다.
+    <h2>9. Changes to this policy</h2>
+    <p>If this policy changes, the latest version and its effective date will be posted on this page.</p>
 
-7. 아동의 개인정보
+    <h2>10. Contact</h2>
+    <p>For privacy questions, please contact:</p>
+    <ul>
+      <li>Developer: Susuim</li>
+      <li>Email: <a href="mailto:gou77gou77@gmail.com">gou77gou77@gmail.com</a></li>
+    </ul>
+  </article>
 
-본 앱은 아동을 대상으로 개인정보를 수집하지 않습니다.
+  <!-- ===================== 日本語 ===================== -->
+  <article id="ja" lang="ja" hidden>
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">施行日：2026年10月17日</p>
 
-8. 개인정보처리방침 변경
+    <p>ボードゲームスコア（以下「本アプリ」）は、ユーザーのプライバシーを尊重します。本ポリシーでは、本アプリが扱う情報とその取り扱いについて説明します。</p>
 
-본 개인정보처리방침은 필요에 따라 변경될 수 있으며, 변경 시 최신 버전이 앱 또는 배포 페이지에 게시됩니다.
+    <h2>1. 収集する情報</h2>
+    <p>本アプリには会員登録やアカウントの機能はありません。開発者が、氏名・メールアドレス・電話番号など、ユーザーを直接識別できる個人情報を収集・保存することはありません。</p>
+    <p>本アプリで作成したデータ（ゲーム記録、プレイヤー名、スコア、設定など）はユーザーの端末内にのみ保存され、開発者に送信されることはありません。開発者はサーバーを運営していません。</p>
 
-9. 문의
+    <h2>2. 端末に保存する情報</h2>
+    <p>本アプリは、以下の情報をユーザーの端末内にのみ保存します。</p>
+    <ul>
+      <li>ゲーム記録とスコア</li>
+      <li>プレイヤー名とチーム名</li>
+      <li>作成したゲームテンプレートとお気に入り</li>
+      <li>アプリの設定（言語、テーマなど）</li>
+    </ul>
+    <p>プレイヤー名はユーザーが自由に入力するものです。本名ではなくニックネームを使っても問題ありません。</p>
 
-앱 관련 문의사항은 아래 이메일로 연락해 주세요.
+    <h2>3. 広告</h2>
+    <p>本アプリは Google AdMob を利用して広告を表示します。広告の配信と効果測定のため、Google および広告パートナーが以下の情報を処理する場合があります。</p>
+    <ul>
+      <li>広告ID（Android 広告ID）</li>
+      <li>端末情報（機種、OSバージョン、言語など）</li>
+      <li>IPアドレス、おおよその位置情報（国・地域レベル）</li>
+      <li>広告の表示・クリックなどの操作情報</li>
+    </ul>
+    <p>これらの情報は Google のプライバシーポリシーに基づいて処理され、開発者が受け取ったり保管したりすることはありません。</p>
+    <div class="note">
+      広告のパーソナライズを望まない場合は、端末の<b>設定 → Google → 広告</b>（端末によっては<b>設定 → プライバシー → 広告</b>）から広告IDをリセットまたは削除できます。
+    </div>
+    <ul>
+      <li>Google プライバシーポリシー：<a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+      <li>Google のサービスを使用するアプリから収集した情報の利用方法：<a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></li>
+    </ul>
 
-이메일
-gou77gou77@gmail.com
+    <h2>4. 共有機能</h2>
+    <p>ゲーム結果をテキスト・画像・CSVで共有すると、ユーザーが選んだアプリ（メッセンジャー、メールなど）にのみ送られます。共有はユーザーが共有ボタンを押したときにのみ行われ、開発者が共有内容を受け取ることはありません。</p>
+
+    <h2>5. アプリの権限</h2>
+    <ul>
+      <li><b>インターネット</b>：広告を読み込むために使用します。ゲーム記録やスコアは送信しません。</li>
+      <li><b>広告ID</b>：広告配信のために Google AdMob が使用します。</li>
+      <li><b>画面の点灯維持</b>：スコアボード画面を使用している間、画面が消えないようにします。情報は収集しません。</li>
+    </ul>
+
+    <h2>6. 第三者サービス</h2>
+    <ul>
+      <li>Google AdMob（Google LLC）— 広告配信</li>
+    </ul>
+    <p>サービスが追加・変更された場合は、本ポリシーを更新します。</p>
+
+    <h2>7. 保存期間と削除</h2>
+    <p>アプリのデータは、ユーザーが削除するまで端末に保存されます。アプリ内でゲーム記録を削除するほか、端末の<b>設定 → アプリ → ボードゲームスコア → ストレージ → データを削除</b>、またはアプリのアンインストールですべてのデータを削除できます。削除したデータは復元できません。</p>
+
+    <h2>8. 子どものプライバシー</h2>
+    <p>開発者は、子どもを含むいかなるユーザーの個人情報も直接収集しません。本アプリは13歳未満の子どもを主な対象としていません。</p>
+
+    <h2>9. ポリシーの変更</h2>
+    <p>本ポリシーを変更した場合は、最新の内容と施行日をこのページに掲載します。</p>
+
+    <h2>10. お問い合わせ</h2>
+    <p>プライバシーに関するお問い合わせは、以下までご連絡ください。</p>
+    <ul>
+      <li>開発者：Susuim</li>
+      <li>メール：<a href="mailto:gou77gou77@gmail.com">gou77gou77@gmail.com</a></li>
+    </ul>
+  </article>
+
+  <footer>© 2026 Susuim</footer>
+</div>
+
+<script>
+  (function () {
+    var supported = ["ko", "en", "ja"];
+    var titles = { ko: "개인정보처리방침 · 보드게임 점수판", en: "Privacy Policy · Board Score", ja: "プライバシーポリシー · ボードゲームスコア" };
+
+    // 우선순위: ?lang= 값 → #ko/#en/#ja → 브라우저 언어(ko/ja는 그대로, 나머지는 en)
+    function pickLang() {
+      var q = (new URLSearchParams(location.search).get("lang") || "").toLowerCase();
+      if (supported.indexOf(q) >= 0) return q;
+      var h = location.hash.replace("#", "").toLowerCase();
+      if (supported.indexOf(h) >= 0) return h;
+      var list = navigator.languages || [navigator.language || ""];
+      for (var i = 0; i < list.length; i++) {
+        var code = (list[i] || "").toLowerCase().split("-")[0];
+        if (supported.indexOf(code) >= 0) return code;
+      }
+      return "en";
+    }
+
+    function show(lang) {
+      supported.forEach(function (l) {
+        document.getElementById(l).hidden = (l !== lang);
+      });
+      document.querySelectorAll(".lang-switch button").forEach(function (b) {
+        b.setAttribute("aria-pressed", b.dataset.lang === lang ? "true" : "false");
+      });
+      document.documentElement.lang = lang;
+      document.title = titles[lang];
+    }
+
+    document.querySelectorAll(".lang-switch button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        show(b.dataset.lang);
+        history.replaceState(null, "", "?lang=" + b.dataset.lang);
+      });
+    });
+
+    show(pickLang());
+  })();
+</script>
+</body>
+</html>
